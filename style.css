@@ -21,3 +21,21 @@ div#buttons button {
     border: 0;
     padding: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#wrapper {
+    max-width: 400px;
+}
+
+main > img {
+    max-width: 100%;
+}
+
+div#buttons button > img {
+    max-width: 60px;
+}
