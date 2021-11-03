@@ -1,0 +1,17 @@
+.both-sides-justified {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.both-sides-justified > div {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div#header-left {
+    display: flex;
+    flex-direction: row;
+}
+
