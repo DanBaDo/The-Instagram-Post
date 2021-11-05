@@ -1,3 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background: black;
+}
+
+div#wrapper {
+    max-width: 400px;
+    background: white;
+}
+
+div#wrapper > img {
+    max-width: 100%;
+}
+
 .both-sides-justified {
     display: flex;
     flex-direction: row;
@@ -10,9 +27,26 @@
     padding: 0;
 }
 
+footer {
+    padding: 20px;
+}
+
+header {
+    align-items: center;
+}
+
 div#header-left {
     display: flex;
     flex-direction: row;
+    align-items: center;
+}
+
+img#logo {
+    margin: 15px;
+}
+
+div#text > p {
+    margin: 0px;
 }
 
 div#buttons button {
@@ -22,20 +56,11 @@ div#buttons button {
     padding: 0;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-div#wrapper {
-    max-width: 400px;
-}
-
-main > img {
-    max-width: 100%;
-}
-
 div#buttons button > img {
-    max-width: 60px;
+    max-width: 40px;
+    margin: 7px
+}
+
+button {
+    background: transparent;
 }
