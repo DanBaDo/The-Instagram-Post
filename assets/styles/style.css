@@ -1,4 +1,4 @@
-body {
+body { /* Main contents alighment and common properties*/
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -8,22 +8,22 @@ body {
     background: black;
 }
 
-div#wrapper {
+div#wrapper { /* Content block */
     max-width: 400px;
     background: white;
 }
 
-div#wrapper > img {
+div#wrapper > img { /* Main img in content block */
     max-width: 100%;
 }
 
-.both-sides-justified {
+.both-sides-justified { /* Horizonal bars: top and buttons */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.both-sides-justified > div {
+.both-sides-justified > div { /* Space around cleanup for bars contents */
     margin: 0;
     border: 0;
     padding: 0;
@@ -33,11 +33,11 @@ footer {
     padding: 20px;
 }
 
-header {
+header { 
     align-items: center;
 }
 
-div#header-left {
+div#header-left { /* Header left side elements distribution */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,18 +51,14 @@ div#text > p {
     margin: 0px;
 }
 
-div#buttons button {
-    border: none;
+div#buttons button { /* Hidding buttons */
     margin: 0;
     border: 0;
     padding: 0;
+    background: transparent;
 }
 
-div#buttons button > img {
+div#buttons button > img { /* Make buttons images looks great */
     max-width: 40px;
     margin: 7px
-}
-
-button {
-    background: transparent;
 }
